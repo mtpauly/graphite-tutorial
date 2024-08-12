@@ -21,6 +21,7 @@ const activityFeed = [
   }
 ];
 
+// This is an additional comment
 app.get('/feed', (req, res) => {
   res.json(activityFeed);
 });
